@@ -71,3 +71,19 @@ main > * {
 /* media queries */
 
 /* YOUR CODE HERE */
+@media (max-width: 768px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+     padding: 1rem;
+  width: 20rem;
+  margin: 0rem 1rem 1rem 0;
+      }
+  main {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 1rem 1rem 0;
+      }
+
+}
